@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/monsters', function () {
+    return view('home');
+});
+
+Route::get('/monsters/hive', function () {
+    return view('monsters.detail');
+});
+
+Route::get('/guns', function () {
+    return view('home');
+});
+
+Route::get('/traits', function () {
+    return view('home');
 });

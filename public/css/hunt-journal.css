@@ -1,22 +1,12 @@
-body > main {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.detail-page{
+    padding-top: 0;
 }
 
-article{
+.stats{
+    padding: 1rem 1.5rem;
     margin-top: 0;
+}
+
+.stats h2{
     margin-bottom: 0;
-    padding: 2rem;
-}
-
-article > h2 {
-    margin-bottom: 1rem;
-}
-
-article :last-child {
-    margin-bottom: 0;
-}
-
-footer > p {
-    margin: 0;
 }
