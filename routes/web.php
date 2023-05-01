@@ -26,7 +26,11 @@ Route::get('/monsters/hive', function () {
 });
 
 Route::get('/guns', function () {
-    return view('home');
+    return view('guns.detail');
+});
+
+Route::get('/guns/mosin-nagant-m1891-obrez', function () {
+    return view('guns.detail');
 });
 
 Route::get('/traits', function () {
